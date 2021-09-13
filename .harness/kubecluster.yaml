@@ -1,0 +1,12 @@
+connector:
+  name: kube-cluster
+  identifier: kubecluster
+  description:
+  orgIdentifier: default
+  projectIdentifier: mulehello01
+  type: K8sCluster
+  spec:
+    credential:
+      type: InheritFromDelegate
+    delegateSelectors:
+    - muledelegate
