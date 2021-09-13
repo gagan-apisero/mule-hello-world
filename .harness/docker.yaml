@@ -1,0 +1,15 @@
+connector:
+  name: docker
+  identifier: docker
+  description:
+  orgIdentifier: default
+  projectIdentifier: mulehello01
+  type: DockerRegistry
+  spec:
+    dockerRegistryUrl: https://hub.docker.com/r/zatch3301/shinychat
+    providerType: DockerHub
+    auth:
+      type: UsernamePassword
+      spec:
+        username: zatch3301
+        passwordRef: dockertoken
